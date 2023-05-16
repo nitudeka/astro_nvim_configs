@@ -6,6 +6,7 @@ return {
       -- "lua"
       "javascript",
       "typescript",
+      "astro",
     })
   end,
 }
