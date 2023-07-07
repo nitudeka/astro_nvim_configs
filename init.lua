@@ -52,6 +52,11 @@ return {
     servers = {
       -- "pyright"
     },
+    init_options = {
+      preferences = {
+        disableSuggestions = true,
+      }
+    }
   },
 
   -- Configure require("lazy").setup() options
