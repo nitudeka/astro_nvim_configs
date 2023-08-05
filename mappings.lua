@@ -18,6 +18,42 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>am"] = { 
+      function()
+        require("harpoon.ui").toggle_quick_menu()
+      end,
+      desc = "Harpoon menu"
+    },
+    ["<leader>aa"] = { 
+      function()
+        require("harpoon.mark").add_file()
+      end,
+      desc = "Harpoon add file"
+    },
+    ["<leader>aj"] = { 
+      function()
+        require("harpoon.ui").nav_file(1)
+      end,
+      desc = "Harpoon add 1st file"
+    },
+    ["<leader>ak"] = { 
+      function()
+        require("harpoon.ui").nav_file(2)
+      end,
+      desc = "Harpoon add 2nd file"
+    },
+    ["<leader>al"] = { 
+      function()
+        require("harpoon.ui").nav_file(3)
+      end,
+      desc = "Harpoon add 3rd file"
+    },
+    ["<leader>a;"] = { 
+      function()
+        require("harpoon.ui").nav_file(4)
+      end,
+      desc = "Harpoon add 4th file"
+    },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },

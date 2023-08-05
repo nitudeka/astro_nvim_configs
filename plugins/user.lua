@@ -12,6 +12,8 @@ return {
   "jose-elias-alvarez/typescript.nvim", -- add lsp plugin
   "simrat39/rust-tools.nvim", -- add lsp plugin
   "wuelnerdotexe/vim-astro",
+  "nvim-lua/plenary.nvim",
+  "ThePrimeagen/harpoon",
   "virchau13/tree-sitter-astro",
   {
     "williamboman/mason-lspconfig.nvim",
