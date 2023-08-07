@@ -8,6 +8,7 @@ return {
       "typescript",
       "tsx",
       "astro",
+      "prisma"
     })
   end,
 }

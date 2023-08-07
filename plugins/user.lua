@@ -15,10 +15,11 @@ return {
   "nvim-lua/plenary.nvim",
   "ThePrimeagen/harpoon",
   "virchau13/tree-sitter-astro",
+  "prisma/vim-prisma",
   {
     "williamboman/mason-lspconfig.nvim",
     opts = {
-      ensure_installed = { "tsserver", "rust_analyzer", "astro" }, -- automatically install lsp
+      ensure_installed = { "tsserver", "rust_analyzer", "astro", "prismals" }, -- automatically install lsp
     },
   }
 }
