@@ -34,25 +34,25 @@ return {
       function()
         require("harpoon.ui").nav_file(1)
       end,
-      desc = "Harpoon add 1st file"
+      desc = "Harpoon go to 1st file"
     },
     ["<leader>ak"] = { 
       function()
         require("harpoon.ui").nav_file(2)
       end,
-      desc = "Harpoon add 2nd file"
+      desc = "Harpoon go to 2nd file"
     },
     ["<leader>al"] = { 
       function()
         require("harpoon.ui").nav_file(3)
       end,
-      desc = "Harpoon add 3rd file"
+      desc = "Harpoon go to 3rd file"
     },
     ["<leader>a;"] = { 
       function()
         require("harpoon.ui").nav_file(4)
       end,
-      desc = "Harpoon add 4th file"
+      desc = "Harpoon go to 4th file"
     },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
