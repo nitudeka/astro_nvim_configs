@@ -19,7 +19,7 @@ return {
   {
     "williamboman/mason-lspconfig.nvim",
     opts = {
-      ensure_installed = { "tsserver", "rust_analyzer", "astro", "prismals" }, -- automatically install lsp
+      ensure_installed = { "vuels", "tsserver", "rust_analyzer", "astro", "prismals" }, -- automatically install lsp
     },
   }
 }
